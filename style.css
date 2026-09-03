@@ -1,0 +1,74 @@
+.navbar{
+    background-color: #bcc71c;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px;
+}
+
+.navbar a {
+    color: white;
+}
+
+.navbar a:hover {
+    color: orange;
+}
+
+.login-button {
+    background-color: rgb(237, 168, 39);
+    color: rgb(19, 19, 126);
+    padding: 12px 50px;
+    border-radius: 25px;
+}
+
+.top-header{
+    background-color: #808903;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding: 20px 40px;
+}
+
+.search-box {
+    display: flex;
+    width: 500px;
+    height: 45px;
+}
+
+.search-box input {
+    flex: 1;
+    padding: 0 18px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    border-radius: 8px 0 0 8px;
+}
+
+.search-box button {
+    padding: 0 20px;
+    border: none;
+    background: #F97316;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 0 8px 8px 0;
+}
+
+.search-box input:focus {
+    box-shadow: 0 0 0 2px #F97316;
+}
+
+.login-button{
+   text-decoration: none;
+   color: white;
+   border: 2px solid #F97316;
+   padding: 10PX 18PX;
+   border-radius: 8px;
+   font-weight: 600;
+   transition: 0.3;
+}
+
+.login-button:hover{
+    background-color: #F97316;
+    color:white;
+}
